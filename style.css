@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #EDF3F8;
+}
+
+.head{
+    max-width: 1440px;
+}
+
+.nav{
+    width: 1110px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.ul ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav ul li:hover{
+    transition: all 1s;
+    color: #BA4270;
+    text-shadow: 0px 4px 8px palevioletred;
+}
+
+.but{
+    width: 150px;
+    height: 40px;
+    background-color: #BA4270;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    letter-spacing: -0.11538461595773697px;
+}
+
+.but:hover{
+    transition: all 1s;
+    background-color: #EDF3F8;
+    color: #BA4270;
+    border: 2px solid #BA4270;
+}
+
+.nav ul li{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    color: #36536B;
+}
+
+.list{
+    display: none;
+}
+
+.log{
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .nav{
+        max-width: 689px;
+        height: 48px;
+    }
+
+    .ul ul li{
+        gap: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 17.63px;
+    }
+
+    .but{
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .log{
+        display: none;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .main2{
+        flex-direction: column-reverse;
+    }
+
+    .main2 img{
+        width: 159px;
+        height: 300px;
+    }
+
+    .name{
+        max-width: 573px;
+        max-height: 122px;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: center;
+    }
+
+    .main5{
+        width: 573px;
+        height: 462px;
+        margin: 153px auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main5 h2{
+        width: 573px;
+        height: 56px;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.3692307770252228px;
+        text-align: center;
+    }
+
+    .main5 p{
+        width: 573px;
+        height: 56px;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .main5 img{
+        max-width: 410px;
+        max-height: 278px;
+    }
+
+    .finish{
+        width: 689px;
+        height: 311px;
+        text-align: center;
+    }
+
+    .find img{
+        width: 88px;
+        height: 88px;
+    }
+
+    .find p{
+       max-width: 223px;
+        max-height: 191px;
+    }
+
+    .foot{
+        max-width: 768px;
+        max-height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ul{
+        display: none;
+    }
+
+    .but{
+        display: none;
+    }
+
+    .list{
+        display: initial;
+    }
+
+    .main{
+        margin: 40px auto;
+        gap: 180px;
+        display: flex;
+        align-items: center;
+    }
+    .logo1{
+        display: none;
+    }
+
+    .log{
+        display: initial;
+        width: 135px;
+        height: 38px;
+    }
+
+    .main2 img{
+        width: 128px;
+        height: 240px;
+    }
+
+    .main2 h2{
+        max-width: 327px;
+        max-height: 285px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2461538463830948px;
+        text-align: center;
+    }
+
+    .main5{
+        width: 401px;
+        height: 459px;
+        margin: 180px auto;
+    }
+
+    .main5 h2{
+        max-width: 327px;
+        max-height: 36px;
+        font-family: DM Serif Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2769230902194977px;
+        text-align: center;
+    }
+
+    .main5 p{
+        max-width: 328px;
+        max-height: 112px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;position: relative;
+        left: 48px;
+    }
+
+    .main5 img{
+        max-width: 401px;
+        max-height: 239px;
+    }
+
+    .foot{
+        background-color: #1B262F;
+        max-width: 375px;
+        max-height: 400px; 
+        flex-direction: column;       
+    }
+
+    .parent{
+        flex-direction: column;
+    }
+
+    .parent ul{
+        flex-direction: column;
+    }
+}
+
+.sec1{
+    margin: 58px auto;
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main2 img{
+    max-width: 263px;
+    max-height: 500px;
+}
+
+.name{
+    max-width: 546px;
+    max-height: 345px;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.5538461804389954px;
+    align-content: center;
+    color: #36536B;
+}
+
+.main5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main5 h2{
+    max-width: 445px;
+    max-height: 56px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.3692307770252228px;
+    color: #36536B;
+}
+
+.main5 p{
+    width: 445px;
+    height: 84px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6C8294;
+}
+
+.child{
+    gap: 50px;
+}
+
+.finish{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.find p{
+    margin-top: 32px;
+    padding-bottom: none;
+    max-width: 350px;
+    max-height: 141px;
+}
+
+.foot{
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #1B262F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.parent ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+}
+
+.parent ul li:hover{
+    transition: all 1s;
+    color: #BA4270;
+    text-shadow: 0px 4px 8px #BA4270;
+}
+
+.parent2{
+    max-width: 120px;
+    max-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
